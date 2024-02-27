@@ -34,19 +34,17 @@ label {
 	width: 200px;
 }
 
+
+
+#finalAmount h2 {
+	font-size: 50px;
+}
 #finalAmount {
 	font-family: 'Lobster', cursive;
 	display: none;
 	margin: 50px auto;
 }
 
-#finalAmount h2 {
-	font-size: 50px;
-}
-
-.finalValue {
-	font-family: 'Amiri', serif;
-}
 
 @media (max-width: 768px) {
 	hr {
@@ -71,4 +69,7 @@ label {
 	.finalValue {
 		font-size: 40px;
 	}
+}
+.finalValue {
+	font-family: 'Amiri', serif;
 }
